@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <style>
+            .navbar{
+    width: auto;
+    
+    background-color: grey;
+    overflow: hidden;
+}
+
+.navbar ul li{
+    list-style: none;
+    float: left;  
+    
+}
+ .navbar ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 20px; 
+}
+.navbar ul li a:hover{
+    background-color: orange;
+}
+
+            
+            .navbar{
+                width: auto;
+                height:40px;
+                background-color: red;
+
+            }
+            ul li{
+                list-style: none;
+                float: left;
+                padding: 10px;
+            }
+            .navbar ul li ul{
+            display: none;
+        }
+        .navbar ul li:hover ul{
+            display: block;
+            position: absolute;
+        }
+        .navbar ul li:hover ul li{
+            display: block;
+            background-color: mediumaquamarine;
+            clear: both;
+            border-bottom: 2px solid black;
+            width: 100px;
+            
+        }
+        .navbar ul li:hover ul li:hover{
+            background-color: orange;
+            margin:1px auto 1px 15px;
+        }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar">
+            <ul>
+                <li>Home</li>
+                <li>Department
+            <ul>
+                <li style="clear: left;"> <a href="#">Civil</a></li>
+                <li style="clear: left;"> <a href="#">Civil</a></li>
+                <li style="clear: left;">  <a href="#">Civil</a></li>
+            </ul>
+        </li>
+    </nav>
+    </body>
+</html>

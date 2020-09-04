@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test Position</title>
+    </head>
+    <style>
+        .div1,.div2,.div3,.div4,.div5{
+            width: 100px;
+            height:100px ;
+            border: 2px solid red;
+            margin: 20px;
+        }
+        .div1{
+            position: relative;
+            left: 120px;
+
+        }
+
+        .div3{
+            position: absolute;
+            left: 150px;
+        }
+
+        .div4{
+            position: absolute;
+            left: 800px;
+        }
+        .div5{position: absolute;
+         top: 0px;
+         right: 300px;}
+    </style>
+    <body>
+        <div class="container">
+            <div class="div1">
+                    div1
+            </div>
+            <div class="div2">
+                div2
+            </div>
+            <div class="div3">
+                div3
+            </div>
+            <div class="div4">
+                div4
+                <div class="div5">
+                    div5
+                </div>
+            </div>
+            
+
+
+
+        </div>
+    </body>
+</html>

@@ -1,0 +1,54 @@
+#div{  
+            
+    float: left; 
+    overflow: hidden;
+
+
+}
+
+hr{ 
+    clear: left;
+    color: green;
+    
+}
+
+
+
+.row ul li{
+    float: left;  
+    list-style: none;
+}
+.row ul li a{
+    display: block;
+    text-decoration: none;
+    color: green;
+    padding: 20px;   
+}
+
+.row ul li a:hover{
+    background-color:black;
+    
+}
+
+#div1{
+    float: right;
+}
+
+
+#ul1{
+    
+    clear: left;
+}
+
+#li1{
+    clear: left;
+    color: black;
+    
+}
+
+#ul1 #li1 a{
+    color: green;
+}
+
+
+

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Test Opacity</title></head>
+
+        .container{
+            background:url(leaf1.jfif) no-repeat;
+            background-size: 100% 100% ;
+            width: 100%;
+            height: 300px;
+        }
+
+        .layer{
+            background-color: black;
+            color:wheat;
+            border: 2px solid gray;
+            width: auto;
+            height: 80px;
+            position: relative;
+            background-color:maroon;
+            opacity: 0.3;
+            text-align: center;
+            font-size: 50px;
+        }
+        .row{
+            display: flex;
+            margin:10px;
+            flex-wrap: wrap;
+        }
+        .col{
+            margin:10px;
+            background-color: yellow;
+            width: 30%;
+            height: 50px;
+            z-index: 1;
+        }
+        .col1{
+            background-color:green;
+            width: 30%;
+            height: 50px;
+            margin:10px;
+            position: relative;
+            left: -100px;
+            z-index: 5;    /*important give priority, palce upper*/
+        }
+        .col2{
+            background-color: red;
+            width: 30%;
+            height: 50px;
+            margin:10px;
+            position: relative;
+            left: -300px;
+            z-index: 3;
+        }
+        
+
+   
+    <body>
+        <div class="container">
+            <div class="layer">Bagan</div>
+        </div>
+        <div class="row">
+            <div class="col">Col</div>
+            <div class="col1">Col1</div>
+            <div class="col2">Col2</div>
+        </div>
+    </body>
+</html>
